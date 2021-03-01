@@ -22,5 +22,4 @@ if (! isset($autoloaderPath) || ! is_readable($autoloaderPath)) {
 
 require $autoloaderPath;
 
-//$app = new SingleCommandApplication();
 $app = new Symfony\Component\Console\Application('WP Xerox', '1.0.0');
