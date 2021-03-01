@@ -1,0 +1,23 @@
+{
+  "name": "jascha030/wp-xerox",
+  "require": {
+    "symfony/console": "^5.2",
+    "composer/composer": "^2.0"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master",
+    "phpunit/phpunit": "^9.5"
+  },
+  "authors": [
+    {
+      "name": "Jascha030",
+      "email": "contact@jaschavanaalst.nl"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Jascha030\\WPXerox": "src"
+    }
+  }
+}
